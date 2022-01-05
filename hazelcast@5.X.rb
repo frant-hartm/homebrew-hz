@@ -4,8 +4,6 @@ class HazelcastAT5X < Formula
     url "https://github.com/hazelcast/hazelcast-command-line/releases/download/v5.2021.07.1/hazelcast-5.0-BETA-1.tar.gz"
     sha256 "f108d22a1aec61bbd637f89ff522af7d9861ef13afcfad24a5095127f04f091d"
   
-    bottle :unneeded
-  
     depends_on "openjdk" => :recommended
   
     def install
@@ -18,7 +16,7 @@ class HazelcastAT5X < Formula
         (bin/executable_name).write_env_script libexec/"bin/#{executable_name}", Language::Java.overridable_java_home_env
       end
       prefix.install_metafiles
-      inreplace libexec/"bin/download/hazelcast-download.properties", "hazelcastDownloadId=CLI", "hazelcastDownloadId=CLI_BREW"
+      inreplace libexec/"lib/hazelcast-download.properties", "hazelcastDownloadId=distribution", "hazelcastDownloadId=brew"
     end
   
     def post_install
