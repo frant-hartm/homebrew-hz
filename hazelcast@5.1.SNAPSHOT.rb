@@ -1,4 +1,4 @@
-class Hazelcast < Formula
+class HazelcastAT51Snapshot < Formula
     desc "Tool to run Hazelcast IMDG member instances locally"
     homepage "https://github.com/hazelcast/hazelcast-command-line"
     url "https://oss.sonatype.org/content/repositories/snapshots/hazelcast-distribution/hazelcast-5.1-SNAPSHOT.tar.gz"
