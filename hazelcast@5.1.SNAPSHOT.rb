@@ -2,7 +2,7 @@ class HazelcastAT51Snapshot < Formula
     desc "Tool to run Hazelcast IMDG member instances locally"
     homepage "https://github.com/hazelcast/hazelcast-command-line"
     url "https://oss.sonatype.org/content/repositories/snapshots/com/hazelcast/hazelcast-distribution/5.1-SNAPSHOT/hazelcast-distribution-5.1-20220105.224138-213.tar.gz"
-    sha256 "fc9dd2c3a8df1279fe7f77021d4f1d2a885ac2491e2134db595e1d7909032087"
+    sha256 "6c230fc484ab9bf8800a328a42d83ea4588f6181171c81c5dd2d71087c5d94e1"
   
     bottle :unneeded
   
