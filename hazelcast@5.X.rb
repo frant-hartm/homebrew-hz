@@ -20,7 +20,8 @@ class HazelcastAT5X < Formula
     end
   
     def post_install
-      exec "hz"
+      # TODO fix once we have hz command in main distro
+      exec "echo Hazelcast installed"
     end
   
   end
