@@ -1,7 +1,7 @@
 class HazelcastEnterpriseAT502 < Formula
     desc "Tool to run Hazelcast IMDG member instances locally"
     homepage "https://github.com/hazelcast/hazelcast-command-line"
-    url "https://repo1.maven.org/maven2/com/hazelcast/hazelcast-enterprise-distribution/5.0.2/hazelcast-enterprise-distribution-5.0.2.tar.gz"
+    url "https://repository.hazelcast.com/snapshot/com/hazelcast/hazelcast-enterprise-distribution/5.0.2/hazelcast-enterprise-distribution-5.0.2.tar.gz"
     sha256 "a0596e04e4c68be6537258a28f10cae886822882aff1214b0c2005b9555b6bd5"
     conflicts_with "hazelcast"
   
