@@ -1,8 +1,8 @@
 class HazelcastEnterpriseAT51Snapshot < Formula
     desc "Tool to run Hazelcast IMDG member instances locally"
     homepage "https://github.com/hazelcast/hazelcast-command-line"
-    url "https://repository.hazelcast.com/snapshot/com/hazelcast/hazelcast-enterprise-distribution/5.1-SNAPSHOT/hazelcast-enterprise-distribution-5.1-20220113.112751-284.tar.gz"
-    sha256 "f955265618a857c8efa5ad4c7bf5656ae84d1b8d209cf0a42b1aeb56ae368140"
+    url "https://repository.hazelcast.com/snapshot/com/hazelcast/hazelcast-enterprise-distribution/5.1-SNAPSHOT/hazelcast-enterprise-distribution-5.1-20220113.161904-285.tar.gz"
+    sha256 "e6d97754004d2df0e195f46a4c0df563be750b98ec017887315e636a947749d0"
     conflicts_with "hazelcast"
   
     depends_on "openjdk" => :recommended
